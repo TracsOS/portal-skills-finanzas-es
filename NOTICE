@@ -1,0 +1,9 @@
+portal-skills-finanzas-es
+Copyright 2026 TRACSIA, S.L.
+
+Este repositorio contiene obras derivadas de skills publicadas por Anthropic
+en https://github.com/anthropics/financial-services bajo la licencia Apache 2.0.
+
+- plugins/finanzas-es/skills/conciliacion-bancaria-572/SKILL.md deriva de la
+  skill gl-recon (plugins/agent-plugins/gl-reconciler/skills/gl-recon/SKILL.md),
+  modificada por Tracs el 6 de noviembre de 2026 para una empresa española.

@@ -1,0 +1,16 @@
+{
+  "name": "tracs-finanzas-es",
+  "owner": {
+    "name": "Tracs"
+  },
+  "metadata": {
+    "description": "Skills de finanzas adaptadas a empresas españolas, comprobadas por Tracs."
+  },
+  "plugins": [
+    {
+      "name": "finanzas-es",
+      "source": "./plugins/finanzas-es",
+      "description": "Skills de finanzas adaptadas a empresas españolas: Plan General Contable, Norma 43, cuenta 572. Cada una comprobada y publicada en tracs.es."
+    }
+  ]
+}

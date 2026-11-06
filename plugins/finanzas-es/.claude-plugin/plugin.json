@@ -1,0 +1,10 @@
+{
+  "name": "finanzas-es",
+  "version": "0.1.0",
+  "description": "Skills de finanzas adaptadas a empresas españolas, comprobadas por Tracs. Cada skill explica en tracs.es qué hace, cómo la probamos y qué falló.",
+  "author": {
+    "name": "Tracs"
+  },
+  "homepage": "https://tracs.es",
+  "license": "Apache-2.0"
+}
