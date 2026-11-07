@@ -23,6 +23,10 @@ Tu agente también puede leer cualquier skill directamente desde este repositori
 |---|---|---|
 | [conciliacion-bancaria-572](plugins/finanzas-es/skills/conciliacion-bancaria-572/SKILL.md) | Concilia el extracto del banco con el mayor de la 572 y explica cada diferencia | [gl-recon](https://github.com/anthropics/financial-services/blob/main/plugins/agent-plugins/gl-reconciler/skills/gl-recon/SKILL.md), de Anthropic |
 
+## Cómo las probamos
+
+Cada skill pasa la misma prueba antes de publicarse: Claude la sigue a ciegas con meses de una empresa ficticia y comparamos lo que da con una solución que no ve. Los meses y sus soluciones están en [`pruebas/`](pruebas/), para que puedas repetir la prueba.
+
 ## Límites
 
 Son la versión gratuita y de aficionado: las hemos probado con datos ficticios y no contabilizan nada. Revisa cada propuesta antes de usarla. Si necesitas que las finanzas de tu empresa funcionen con cifras en las que puedas confiar, eso lo hacemos en [Tracs](https://tracs.es).

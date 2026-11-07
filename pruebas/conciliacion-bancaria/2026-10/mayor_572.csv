@@ -1,0 +1,23 @@
+asiento,fecha,concepto,debe,haber
+1001,2026-10-01,Cobro Acme Distribucion fra 2026-118,4840.00,
+1002,2026-10-02,Pago Endesa sept,,312.47
+1003,2026-10-03,Liquidacion TPV 03/10,1265.30,
+1004,2026-10-05,Nomina octubre Lopez,,1980.00
+1006,2026-10-07,Cobro Beta Retail,2420.00,
+1007,2026-10-08,Seguridad Social septiembre,,1123.85
+1008,2026-10-09,Pago Papeleria Centro,,187.55
+1009,2026-10-10,Liquidacion TPV 10/10,980.10,
+1010,2026-10-13,Cobro Gamma Foods fra 2026-121,1210.00,
+1011,2026-10-14,Movistar octubre,,89.90
+1012,2026-10-15,Alquiler oficina octubre,,1452.00
+1013,2026-10-15,Cobro Delta Hoteles,3025.00,
+1014,2026-10-20,Modelo 303 3T,,2341.12
+1015,2026-10-21,Liquidacion TPV 17/10,1545.75,
+1016,2026-10-22,Asesoria Fiscal Norte octubre,,363.00
+1017,2026-10-24,Cobro Acme Distribucion fra 2026-125,968.00,
+1018,2026-10-27,AWS octubre,,58.21
+1019,2026-10-28,Pago Textil Sur,2178.00,
+1020,2026-10-28,Pago Textil Sur,,2178.00
+1021,2026-10-29,Pago Textil Sur fra 88,,2178.00
+1022,2026-10-30,Pago Grafica Levante pagare,,726.00
+1023,2026-10-31,Liquidacion TPV 31/10,2210.40,
