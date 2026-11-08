@@ -25,7 +25,7 @@ Pregunta qué proceso es, si no está claro. Los procesos y su nombre en tracs.e
 
 ## 2. Lee las comprobaciones del proceso
 
-Lee `https://tracs.es/es/comprobaciones/<nombre>.md`. La lista de procesos que ya tienen comprobaciones está en `https://tracs.es/es/comprobaciones/index.md`. Léelas cada vez: crecen con cada herramienta que se prueba.
+Lee `https://tracs.es/comprobaciones/<nombre>.md`. La lista de procesos que ya tienen comprobaciones está en `https://tracs.es/comprobaciones/index.md`. Léelas cada vez: crecen con cada herramienta que se prueba.
 
 La página tiene dos partes. Haz las de **En cada resultado**. Las de **Al probar una herramienta nueva** sirven para decidir si fiarse de una herramienta, no para comprobar un resultado: menciónalas solo si el usuario está probando una herramienta por primera vez.
 
