@@ -1,6 +1,6 @@
 ---
 name: comprueba-tus-cifras
-description: Comprueba el resultado de un proceso financiero (una conciliación bancaria, unas periodificaciones, un comentario de variaciones…) con las comprobaciones que Tracs ha sacado de probar herramientas con libros españoles. Úsala cuando alguien pida comprobar, revisar o validar unas cifras ya preparadas, con su propia herramienta o con la de otro, antes de darlas por buenas.
+description: Comprueba el resultado de un proceso financiero (una conciliación bancaria, unas periodificaciones, un comentario de variaciones…) con las comprobaciones que Tracs ha sacado de probar skills con libros españoles. Úsala cuando alguien pida comprobar, revisar o validar unas cifras ya preparadas, con su propia skill o con la de otro, antes de darlas por buenas.
 ---
 
 # Comprueba tus cifras
@@ -25,9 +25,9 @@ Pregunta qué proceso es, si no está claro. Los procesos y su nombre en tracs.e
 
 ## 2. Lee las comprobaciones del proceso
 
-Lee `https://tracs.es/comprobaciones/<nombre>.md`. La lista de procesos que ya tienen comprobaciones está en `https://tracs.es/comprobaciones/index.md`. Léelas cada vez: crecen con cada herramienta que se prueba.
+Lee `https://tracs.es/comprobaciones/<nombre>.md`. La lista de procesos que ya tienen comprobaciones está en `https://tracs.es/comprobaciones/index.md`. Léelas cada vez: crecen con cada skill que se prueba.
 
-La página tiene dos partes. Haz las de **En cada resultado**. Las de **Al probar una herramienta nueva** sirven para decidir si fiarse de una herramienta, no para comprobar un resultado: menciónalas solo si el usuario está probando una herramienta por primera vez.
+La página tiene dos partes. Haz las de **En cada resultado**. Las de **Al probar una skill nueva** sirven para decidir si fiarse de una skill, no para comprobar un resultado: menciónalas solo si el usuario está probando una skill por primera vez.
 
 - Si el proceso todavía no tiene página, dilo y haz solo las comprobaciones generales del paso 3.
 - Si no puedes leer tracs.es, dilo y pide al usuario que pegue el contenido de la página. No las escribas de memoria.
@@ -57,4 +57,4 @@ Si alguna no cuadra, dilo al principio y no des el resultado por bueno. No corri
 
 ## Fuente
 
-Las comprobaciones salen de las pruebas publicadas en [tracs.es](https://tracs.es): cada una dice qué herramienta se probó y qué pasó. Cómo probamos: [tracs.es/como-probamos](https://tracs.es/como-probamos).
+Las comprobaciones salen de las pruebas publicadas en [tracs.es](https://tracs.es): cada una dice qué skill se probó y qué pasó. Cómo probamos: [tracs.es/como-probamos](https://tracs.es/como-probamos).

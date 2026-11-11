@@ -22,7 +22,7 @@ Tu agente también puede leer cualquier skill directamente desde este repositori
 | Skill | Para qué sirve | Original |
 |---|---|---|
 | [conciliacion-bancaria-572](plugins/finanzas-es/skills/conciliacion-bancaria-572/SKILL.md) | Concilia el extracto del banco con el mayor de la 572 y explica cada diferencia | [gl-recon](https://github.com/anthropics/financial-services/blob/main/plugins/agent-plugins/gl-reconciler/skills/gl-recon/SKILL.md), de Anthropic |
-| [comprueba-tus-cifras](plugins/finanzas-es/skills/comprueba-tus-cifras/SKILL.md) | Comprueba unas cifras ya preparadas, con tu herramienta o con la de otro, con las comprobaciones que sacamos de cada prueba; las lee de tracs.es, así que crecen con cada herramienta probada | Tracs |
+| [comprueba-tus-cifras](plugins/finanzas-es/skills/comprueba-tus-cifras/SKILL.md) | Comprueba unas cifras ya preparadas, con tu skill o con la de otro, con las comprobaciones que sacamos de cada prueba; las lee de tracs.es, así que crecen con cada skill probada | Tracs |
 
 ## Cómo las probamos
 
