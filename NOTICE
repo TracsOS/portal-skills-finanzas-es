@@ -6,4 +6,5 @@ en https://github.com/anthropics/financial-services bajo la licencia Apache 2.0.
 
 - plugins/finanzas-es/skills/conciliacion-bancaria-572/SKILL.md deriva de la
   skill gl-recon (plugins/agent-plugins/gl-reconciler/skills/gl-recon/SKILL.md),
-  modificada por Tracs el 6 de noviembre de 2026 para una empresa española.
+  modificada por Tracs el 6 de noviembre de 2026 para una empresa española
+  y el 12 de noviembre de 2026 (cuentas de las comisiones, los intereses y el TPV).

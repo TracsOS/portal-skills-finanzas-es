@@ -39,7 +39,8 @@ Valen para cualquier proceso:
 - Los totales cuadran con el origen: lo que sale suma lo mismo que el fichero o el saldo del que parte, al céntimo.
 - No se pierde ni se duplica nada: cada fila del origen aparece una vez en el resultado, o está explicada.
 - No queda nada sin asignar: cada importe tiene su cuenta, su partida o su causa.
-- El periodo es el correcto: todas las fechas caen en el mes o el periodo que se está cerrando.
+- El periodo es el correcto: cada importe se imputa al periodo en que se devenga, sea cual sea la fecha de la factura, del cobro o del pago.
+- Cada asiento propuesto cuadra: el debe y el haber suman lo mismo, al céntimo.
 
 ## 4. Haz cada comprobación
 

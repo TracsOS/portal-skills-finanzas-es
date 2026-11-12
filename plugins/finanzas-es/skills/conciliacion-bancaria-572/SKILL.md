@@ -17,6 +17,7 @@ Con el extracto de un banco y el mayor de su cuenta 572 del mismo mes, entrega l
 - **Mayor de la 572.** Viene con columnas de debe y haber. **En la 572, el debe es dinero que entra y el haber, dinero que sale.** Convierte cada línea a un importe con signo: debe en positivo, haber en negativo. Conserva el número de asiento.
 - Fechas en formato AAAA-MM-DD, importes con dos decimales. En los ficheros españoles la coma suele ser el separador decimal y el punto el de miles (`1.590,00`): conviértelos antes de comparar.
 - Si el usuario da los saldos inicial y final de banco y de la 572, anótalos: sirven para cuadrar el informe en el paso 5.
+- **Una cuenta por banco.** Si la 572 recoge varios bancos, usa la subcuenta de este banco y no concilies el total. Si la empresa usa otra numeración, usa la cuenta de este banco: las cuentas que da esta skill son las del Plan General Contable y sirven solo de referencia.
 
 ## Paso 2: Empareja sin número de referencia
 
@@ -45,7 +46,11 @@ Para encontrar los de **importe distinto**, busca entre las líneas sin pareja l
 
 Para cada diferencia, una causa probable. Es una hipótesis para quien concilia, no una conclusión:
 
-- **Gasto o ingreso del banco sin contabilizar** — comisiones, intereses, cuotas de tarjeta. Propón la cuenta del Plan General Contable: comisiones y gastos bancarios a la **626** (servicios bancarios y similares); intereses de préstamos y pólizas a la **662** (intereses de deudas); intereses cobrados a la **769** (otros ingresos financieros).
+- **Gasto o ingreso del banco sin contabilizar** — comisiones, intereses, cuotas de tarjeta. Propón la cuenta del Plan General Contable:
+  - Comisiones por servicios bancarios (mantenimiento, transferencias, TPV): a la **626** (servicios bancarios y similares). Las comisiones de apertura o estudio de un préstamo o una póliza no son gasto del mes: forman parte del tipo de interés efectivo y se imputan a resultados durante la vida de la financiación. Márcalas para el contable.
+  - Intereses de préstamos y pólizas: a la **662** (intereses de deudas), salvo que ya estén periodificados. En ese caso, el cargo cancela la periodificación y no es un gasto nuevo.
+  - Intereses cobrados: a la **769** (otros ingresos financieros) por su importe bruto. Si el banco los abona netos de retención, la retención va a la **473** (Hacienda Pública, retenciones y pagos a cuenta).
+- **Liquidación de TPV neta de comisión** — el banco abona las ventas con tarjeta ya descontada la comisión. Las ventas van por su importe bruto y la comisión, a la 626.
 - **Partida pendiente, no es un error** — un pagaré o cheque emitido que el banco aún no ha cargado, una transferencia ordenada a fin de mes. Va en la conciliación como partida en tránsito; no se corrige nada. Indica que hay que comprobar que se carga el mes siguiente.
 - **Fecha de corte** — el asiento se registró con la fecha de la factura o del documento y el banco con la de cargo o abono.
 - **Error al teclear** — importes que se parecen salvo uno o dos dígitos o por una cantidad redonda.
